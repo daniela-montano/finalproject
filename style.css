@@ -1,0 +1,78 @@
+.site-header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: #264653;
+    color: white;
+}
+
+.brand img {
+    display: block;
+    width: 50px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #e9c46a;
+}
+
+body {
+    background-image: url(foliagebackground.png);
+    text-align: left;
+    line-height: 1.4em;
+
+}
+
+main {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    max-width: 50em; 
+}
+
+.project {
+    border: 2px solid #264653;
+    padding: 1rem;
+    margin: 2rem auto;
+    max-width: 50em;
+}
+
+.project img {
+    max-width: 450px;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+    border: 2px solid #264653
+}
+
+.project h3 {
+    color: #264653;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    line-height: 1.4em;
+}
+
+footer {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    max-width: 50em;
+    text-align: left;
+}
